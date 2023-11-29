@@ -86,4 +86,5 @@ public  class Solution9 {
     public int findFa(int x, int[] fa) {
         return fa[x] < 0 ? x : (fa[x] = findFa(fa[x], fa));
     }
+    // i have to add something to test pull requestion
 }
