@@ -44,6 +44,7 @@ jobs:
     steps:
       - uses: reitermarkus/automerge@v2
         with:
+          token: ${{ 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 }}
           merge-method: rebase
           do-not-merge-labels: never-merge
           required-labels: automerge
